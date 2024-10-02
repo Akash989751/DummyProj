@@ -1,4 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hy my name is Akash this is my first commit");
-Console.WriteLine("Hy my name is Abhishek this is my first commit");
+﻿
+public class TryCatch
+{
+    static void Main()
+    {
+        int a = 2;
+        int b = 0;
+        int c = a / b;
+        try
+        {
+            Console.WriteLine("Value of c", c);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("exception is: ", ex.Message);
+        }
+    }
+}
